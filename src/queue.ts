@@ -2,11 +2,12 @@ class Queue<T> {
     list: T[] = [];
 
     // getter
-    get length(){
+    get length() {
         return this.list.length;
     }
 
-    enqueue(item: T){
+    enqueue(item: T) {
+        console.log(typeof this.list)
         this.list.push(item)
     }
 
@@ -22,6 +23,6 @@ queue.enqueue(1)
 queue.enqueue(2)
 queue.enqueue(3)
 
-while(queue.length > 0){
+while (queue.length > 0) {
     console.log(queue.dequeue())
 }
