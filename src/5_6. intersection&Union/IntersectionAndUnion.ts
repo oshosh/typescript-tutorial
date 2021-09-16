@@ -13,7 +13,6 @@ const u = createUserAction({ name: 'jay' }, { do() { } })
 
 // union type
 function compare(x: string | number, y: string | number) {
-    debugger
     if (typeof x === 'number' && typeof y === 'number') {
         return x === y ? 0 : x > y ? 1 : -1;
     }
