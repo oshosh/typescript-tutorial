@@ -21,3 +21,11 @@
  
  ## 6. TypeScript - type assertion (타입 표명), type gruard
  - https://blog.naver.com/qhanfckwsmsd/222507800792
+
+ ## 7. TypeScript - Advanced types (index type,  type aliaes)
+  - https://blog.naver.com/qhanfckwsmsd/222507866768 type aliaes
+  - https://blog.naver.com/qhanfckwsmsd/222515405841 index type
+
+
+# bootstrap + ts (말판 게임 만들기)
+ - https://github.com/oshosh/typescript-tutorial/tree/master/src/catch-the-lion
