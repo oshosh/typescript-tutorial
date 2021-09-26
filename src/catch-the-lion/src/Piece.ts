@@ -23,9 +23,7 @@ export interface Piece {
 }
 
 export abstract class DefaultPiece implements Piece {
-    constructor(readonly ownerType: PlayerType, public currentPosition: Position) {
-
-    }
+    constructor(readonly ownerType: PlayerType, public currentPosition: Position) { }
 
     move(from: Cell, to: Cell): MoveResult {
         if (!this.canMove(to.position)) {
