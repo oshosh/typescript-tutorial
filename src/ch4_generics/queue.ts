@@ -7,7 +7,6 @@ class Queue<T> {
     }
 
     enqueue(item: T) {
-        console.log(typeof this.list)
         this.list.push(item)
     }
 
